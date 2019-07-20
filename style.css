@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    background-color: #ffcc00;
+}
+hr {
+    height: 2px;
+    background-color: beige;
+}
+h1 {
+    text-align: center;
+    color: black;
+    height: 50px;
+    font-size: 50px;
+    padding: 35px;
+    
+}
+#container {
+    position: relative;
+    width: 300px;
+    border: 3px solid black;
+    margin: 30px auto;
+    border-radius: 10px;
+    background-color: skyblue;
+    box-shadow: h-shadow v-shadow blur spread
+        }
+input[type=text]
+{
+    pointer-events: relative;
+    display: block;
+    width: 90%;
+    margin: 12px auto 0px auto;
+    font-size: 20px;
+    border: 1px solid lightgrey;
+    background-color: antiquewhite;
+    
+}
+input[type=button]
+{
+    position: relative;
+    background-color: azure;
+    width: 20%;
+    margin:  2%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10%;
+    
+}
+
+input[type=button]:hover{
+    background-color: black; 
+}
+
+input[type=text]:disabled{
+    color: black;
+}
